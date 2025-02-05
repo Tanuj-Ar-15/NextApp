@@ -26,6 +26,8 @@ fetchPosts()
 
     return (
         <>
+
+        <h3>This is the All Posts Data.</h3>
         {
             posts.length && posts.map((post , index)=> {
 return (
